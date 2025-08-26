@@ -16,7 +16,7 @@ export function addStarsAndMoon(app) {
 
     moon.x = app.screen.width / 2 + 100;
     moon.y = app.screen.height / 8;
-    app.stage.addChild(graphics);
-    app.stage.addChild(graphics);
+    app.stage.addChild(stars);
+    app.stage.addChild(moon);
     }
 
