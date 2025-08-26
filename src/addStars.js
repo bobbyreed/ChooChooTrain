@@ -1,5 +1,5 @@
 import { Graphics } from 'pixi.js';
-import moonSVG from '../public/assets/moon.svg';
+import moonSVG from '/public/assets/moon.svg';
 
 export function addStarsAndMoon(app) {
   const starCount = 20;
